@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="manishjoy" sortOrder="999" translate="label">
+			<label>manishjoy</label>
+		</tab>
+		<section id="offer_showcase" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Offer Showcase</label>
+			<tab>manishjoy</tab>
+			<resource>ManishJoy_OfferShowcase::config_manishjoy_offershowcase</resource>
+			<group id="general_settings" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>Settings</label>
+				<field id="enable" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Enable</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<!-- <field id="offertext" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="editor">
+					<label>Offer Text</label>
+					<frontend_model>ManishJoy\OfferShowcase\Block\Adminhtml\System\Config\Editor</frontend_model>
+					<comment/>
+				</field> -->
+				<field id="offertext" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="textarea">
+					<label>Offer Text</label>
+					<comment><![CDATA[<span style="color:#FF0000">Note:&nbsp;&nbsp;</span>Supports <strong>Text</strong> as well as <strong>HTML</strong>.]]></comment>
+				</field>
+				<field id="background_color" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="30" translate="label" type="text">
+					<label>Background Color</label>
+					<frontend_model>ManishJoy\OfferShowcase\Block\Adminhtml\System\Config\ColorPicker</frontend_model>
+					<comment/>
+				</field>
+				<field id="text_color" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="40" translate="label" type="text">
+					<label>Text Color</label>
+					<frontend_model>ManishJoy\OfferShowcase\Block\Adminhtml\System\Config\ColorPicker</frontend_model>
+					<comment/>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

@@ -1,0 +1,8 @@
+
+type StoreConfig {
+    
+    offer_showcase_general_settings_enable  : String  @doc(description: "Query by offer_showcase_general_settings_enable.") ,
+    offer_showcase_general_settings_offertext  : String  @doc(description: "Query by offer_showcase_general_settings_offertext.") ,
+    offer_showcase_general_settings_background_color  : String  @doc(description: "Query by offer_showcase_general_settings_background_color.") ,
+    offer_showcase_general_settings_text_color  : String  @doc(description: "Query by offer_showcase_general_settings_text_color.") ,
+}

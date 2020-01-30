@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+		<arguments>
+			<argument name="extendedConfigData" xsi:type="array">
+				<item name="offer_showcase_general_settings_enable" xsi:type="string">offer_showcase/general_settings/enable</item>
+				<item name="offer_showcase_general_settings_offertext" xsi:type="string">offer_showcase/general_settings/offertext</item>
+				<item name="offer_showcase_general_settings_background_color" xsi:type="string">offer_showcase/general_settings/background_color</item>
+				<item name="offer_showcase_general_settings_text_color" xsi:type="string">offer_showcase/general_settings/text_color</item>
+			</argument>
+		</arguments>
+	</type>
+</config>

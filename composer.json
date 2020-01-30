@@ -1,0 +1,25 @@
+{
+    "name": "manishjoy/module-offershowcase",
+    "description": "Magento 2 Extension to showcase offers and coupon codes at the very top of page",
+    "type": "magento2-module",
+    "version": "dev-master",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Manish Joy",
+            "email": "manishjoy1993@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ManishJoy\\OfferShowcase\\": ""
+        }
+    }
+}

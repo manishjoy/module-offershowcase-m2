@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<offer_showcase>
+			<general_settings>
+				<enable>1</enable>
+				<offertext>Hi, this is demo offer.</offertext>
+				<background_color>#FF0000</background_color>
+				<text_color>#FFFFFF</text_color>
+			</general_settings>
+		</offer_showcase>
+	</default>
+</config>

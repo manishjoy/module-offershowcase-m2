@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="ManishJoy_OfferShowcase::offershowcase" title="Offer Showcase" module="ManishJoy_OfferShowcase" sortOrder="40" parent="ManishJoy_Core::core" resource="ManishJoy_Core::core" />
+        <add id="ManishJoy_OfferShowcase::offershowcase_config" title="Configuration" module="ManishJoy_OfferShowcase" sortOrder="10" parent="ManishJoy_OfferShowcase::offershowcase" action="adminhtml/system_config/edit/section/offer_showcase" resource="ManishJoy_OfferShowcase::config_manishjoy_offershowcase"/>
+    </menu>
+</config>

@@ -1,0 +1,14 @@
+<?php
+/** @var \Mageplaza\Blog\Block\Design $block */
+?>
+<?php if($block->getConfigValue('enable')): ?>
+    <?php
+        $bgColor = $block->getConfigValue('background_color') ? $block->getConfigValue('background_color') : '#FF0000';
+        $textColor = $block->getConfigValue('text_color') ? $block->getConfigValue('text_color') : '#FFFFFF';
+    ?>
+    <div class="offer-showcase-container" style="background-color: <?= $bgColor ?>">
+        <div class="offer-showcase-text" style="color: <?= $textColor ?>">
+            <?= $block->getConfigValue('offertext') ?>
+        </div>
+    </div>
+<?php endif; ?>
